@@ -10,6 +10,7 @@ import org.koin.androidx.compose.koinViewModel
 
 fun NavGraphBuilder.favoriteNav(
     popBackStack: () -> Unit,
+    navigateToDetail: (Int) -> Unit,
 ) {
     composable(route = "favorite_screen") {
         val viewModel = koinViewModel<FavoriteViewModel>()
@@ -19,6 +20,7 @@ fun NavGraphBuilder.favoriteNav(
             state = state,
             onEvent = viewModel::onEvent,
             popBackStack = popBackStack,
+            navigateToDetail = navigateToDetail,
         )
     }
 }

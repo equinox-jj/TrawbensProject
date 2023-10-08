@@ -27,7 +27,7 @@ interface ApiService {
     @GET("games/{game_pk}/screenshots")
     suspend fun getGameScreenshot(
         @Path("game_pk") gameId: Int,
-        @Query("key") apiKey: String = Constants.API_KEY,
+        @Query("key") apiKey: String = "8dc0aa73021148589a03b46da9866b42",
     ): ScreenshotsResponse
 
 }

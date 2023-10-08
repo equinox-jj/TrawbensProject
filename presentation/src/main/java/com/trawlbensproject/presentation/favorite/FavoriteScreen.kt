@@ -54,6 +54,7 @@ fun FavoriteScreen(
     state: FavoriteState,
     onEvent: (FavoriteEvent) -> Unit,
     popBackStack: () -> Unit,
+    navigateToDetail: (Int) -> Unit,
 ) {
     val composition by rememberLottieComposition(spec = LottieCompositionSpec.RawRes(R.raw.empty_data))
 
@@ -148,7 +149,7 @@ fun FavoriteScreen(
                     ) { data ->
                         Card(
                             modifier = Modifier.fillMaxWidth(),
-                            onClick = { },
+                            onClick = { navigateToDetail(data.id ?: 0) },
                             elevation = CardDefaults.elevatedCardElevation(defaultElevation = 3.dp),
                         ) {
                             Box(

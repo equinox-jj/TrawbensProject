@@ -28,6 +28,9 @@ fun SetupNavGraph(
         favoriteNav(
             popBackStack = {
                 navController.popBackStack()
+            },
+            navigateToDetail = {
+                navController.navigate("detail_screen/$it")
             }
         )
     }
