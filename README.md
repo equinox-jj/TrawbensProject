@@ -12,6 +12,7 @@
 * Multi Modular.
 * Clean Architecture.
 * Paging 3.
+* Version Catalog.
 
 # Features
 - [x] Save game to favorite.
