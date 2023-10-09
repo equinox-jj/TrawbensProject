@@ -20,3 +20,11 @@
 - [x] Pagination to load more data.
 
 # Preview Apps
+### Dark :
+![Image Apps](https://github.com/equinox-jj/TrawbensProject/blob/master/docs/Dark.png)
+
+### Light :
+![Image Apps](https://github.com/equinox-jj/TrawbensProject/blob/master/docs/Light.png)
+
+# Download
+* [ProjectAPK](https://github.com/equinox-jj/TrawbensProject/raw/master/docs/GameUniverse.apk)
