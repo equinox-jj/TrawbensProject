@@ -80,13 +80,13 @@ dependencies {
     implementation(libs.androidx.paging.compose)
 
     // Koin
-    implementation("io.insert-koin:koin-android:3.5.0")
-    implementation("io.insert-koin:koin-androidx-compose:3.5.0")
-    implementation("io.insert-koin:koin-androidx-compose-navigation:3.5.0")
+    implementation(libs.koin.android)
+    implementation(libs.koin.androidx.compose)
+    implementation(libs.koin.androidx.compose.navigation)
 
     // Jsoup
-    implementation("org.jsoup:jsoup:1.16.1")
+    implementation(libs.jsoup)
 
     // Lottie
-    implementation("com.airbnb.android:lottie-compose:6.1.0")
+    implementation(libs.lottie.compose)
 }
